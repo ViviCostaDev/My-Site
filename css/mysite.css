@@ -1,0 +1,333 @@
+*html {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+::-webkit-scrollbar {
+    width: 0%;
+
+}
+
+::-webkit-resizer {
+    resize: none;
+}
+
+
+body {
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    background-color: #000;
+    font-size: 16px;
+    padding: 0%;
+    margin: 0%;
+   
+    
+
+}
+
+img {
+    width: 250px;
+    height: 35vh;
+    border-radius: 50%;
+    margin: 20px auto 0 auto;
+    display: flex;
+
+}
+
+.bi {
+
+    width: 30px;
+    height: 6vh;
+    float: left;
+    position: sticky;
+    margin-top: -182px;
+    margin-left: 7%;
+
+}
+
+.codepen {
+    width: 50px;
+    height: 6vh;
+    float: left;
+    position: sticky;
+    margin-top: -180px;
+    margin-left: 90%;
+    background-color: #fff;
+}
+
+button,
+button .linkedin {
+    float: left;
+    position: sticky;
+    margin-top: -200px;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif, 'Inter', sans-serif;
+    background-color: #000;
+
+    &:hover {
+        background-color: rgb(255, 208, 0);
+        border-radius: 50px;
+
+    }
+}
+
+button {
+    margin-left: 79%;
+}
+
+.linkedin {
+    margin-left: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Inter', 'Open Sans', sans-serif;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.container-p {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    line-height: 2rem;
+    text-align: justify;
+    font-family: 'Inter', 'Open Sans', sans-serif;
+}
+
+p {
+    color: #fff;
+   
+    text-align: center;
+    text-align: justify;
+}
+
+span {
+    color: darkorange;
+    font-weight: bold;
+}
+
+#container-flex {
+
+
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+.card-html {
+    color: #fff;
+    margin-right: 290px;
+    display: inline;
+    margin-top: -4px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.card-javascript {
+    color: #fff;
+    float: left;
+    margin-top: px;
+    margin-left: 50px;
+    display: inline;
+   
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.card-css {
+    color: #fff;
+    margin-left: 330px;
+    display: inline;
+    margin-top: px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.container {
+
+    margin-left: auto;
+    margin-right: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 100px;
+
+
+}
+
+
+.card-parag,
+.card-paragr,
+.card-paragra {
+    width: 300px;
+    color: #fff;
+    margin-right: px;
+    margin-top: 10px;
+    float: left;
+    font-family: 'Inter', 'Open Sans', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline;
+    line-height: 1.5rem;
+    text-align:justify;
+    
+}
+
+
+
+
+
+.card-parag {
+    margin-left: 95px;
+
+}
+
+.card-paragr {
+    margin-right: px;
+    margin-left: 130px;
+}
+
+.card-paragra {
+    margin-left: 120px;
+
+}
+
+.container-form {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 300px;
+    height: 8vh;
+}
+
+.container-form label {
+    margin-top: 10px;
+    line-height: 2rem;
+    font-family: 'Inter', 'Open Sans', sans-serif;
+text-transform: uppercase;
+}
+
+.container-form input {
+    border-radius: 10px;
+}
+
+.phone {
+    margin-left: 18px;
+}
+
+footer textarea {
+    margin-top: 30px;
+    border-radius: 10px;
+    line-height: 1.5;
+    resize: none;
+}
+
+.botao {
+    float: left;
+    position: sticky;
+    margin-top: -60px;
+    margin-left: 320px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Inter', 'Open Sans', sans-serif;
+    background-color: #5887dd;
+    font-weight: bold;
+    color: #fff;
+
+    &:hover {
+        background-color: rgb(255, 208, 0);
+        border-radius: 50px;
+    }
+}
+
+nav {
+    background-color: darkslategrey;
+    margin-top: 600px;
+    height: 65vh;
+    border-radius: 10px;
+}
+
+#copyright svg{
+    margin-top: -10px;
+    margin-left: 600px;
+  
+    float:left;
+    width: 13px;
+    color:#000;
+}
+
+h6{
+    margin-top: 3px;
+    margin-left: auto;
+    float:left;
+    color:#000;
+    border-width: 200px;
+}
+hr{
+   margin-top: 290px;
+    width: 50%;
+    border: solid 1px;
+    color: #000;
+}
+
+/*formulario obrigado*/
+.container-o {
+    align-items: center;
+    margin: 300px auto 0 auto;
+    width: 400px;
+    height: 100%;
+    color: #fff;
+
+}
+
+.container-o h3 {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.container-o button {
+    background-color: aqua;
+    margin-left: 120px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
